@@ -1,0 +1,24 @@
+# 🔐 Blockchain Identity Management (Minimal Demo)
+
+A simple, student-friendly demo of **on-chain identity & attributes** with **delegate access**.
+- Solidity smart contract
+- Hardhat for compile/deploy
+- Basic frontend (HTML + JS + ethers.js via CDN) to use with **MetaMask**
+
+> Educational only. Not audited for production use.
+
+---
+
+## ✨ Features
+- Set a **DID** string for your address (e.g., `did:example:alice123` or an IPFS CID)
+- Add / update **attributes** like `"email"`, `"university"`, `"degree"`
+- **Grant / revoke delegates** who can manage your attributes for you
+- Read attributes for any address
+
+---
+
+## 🛠️ Quick Start
+
+### 1) Install dependencies
+```bash
+npm install
